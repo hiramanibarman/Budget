@@ -7,74 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE117776213CF6E700ECCF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB924F213CF5A400F4906D /* Main.storyboard */; };
-		CE117777213CF6E800ECCF59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB924F213CF5A400F4906D /* Main.storyboard */; };
-		CE117778213CF9C900ECCF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB9255213CF5A500F4906D /* Assets.xcassets */; };
-		CE117779213CF9CA00ECCF59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB9255213CF5A500F4906D /* Assets.xcassets */; };
-		CE11777B213CFE5500ECCF59 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11777A213CFE5500ECCF59 /* RootTableViewController.swift */; };
-		CE11777C213CFE5500ECCF59 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11777A213CFE5500ECCF59 /* RootTableViewController.swift */; };
-		CE11777D213CFE5500ECCF59 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE11777A213CFE5500ECCF59 /* RootTableViewController.swift */; };
-		CEBB924C213CF5A400F4906D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB924B213CF5A400F4906D /* AppDelegate.swift */; };
-		CEBB924E213CF5A400F4906D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB924D213CF5A400F4906D /* ViewController.swift */; };
-		CEBB9251213CF5A400F4906D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB924F213CF5A400F4906D /* Main.storyboard */; };
-		CEBB9254213CF5A400F4906D /* Budget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEBB9252213CF5A400F4906D /* Budget.xcdatamodeld */; };
-		CEBB9256213CF5A500F4906D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB9255213CF5A500F4906D /* Assets.xcassets */; };
-		CEBB9259213CF5A500F4906D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB9257213CF5A500F4906D /* LaunchScreen.storyboard */; };
-		CEBB9264213CF5A500F4906D /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB9263213CF5A500F4906D /* BudgetTests.swift */; };
-		CEBB926F213CF5A500F4906D /* BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB926E213CF5A500F4906D /* BudgetUITests.swift */; };
+		CE82DC9F213FAE6200E81825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82DC9E213FAE6200E81825 /* AppDelegate.swift */; };
+		CE82DCA1213FAE6200E81825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82DCA0213FAE6200E81825 /* ViewController.swift */; };
+		CE82DCA4213FAE6200E81825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82DCA2213FAE6200E81825 /* Main.storyboard */; };
+		CE82DCA7213FAE6200E81825 /* Budget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE82DCA5213FAE6200E81825 /* Budget.xcdatamodeld */; };
+		CE82DCA9213FAE6300E81825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE82DCA8213FAE6300E81825 /* Assets.xcassets */; };
+		CE82DCAC213FAE6300E81825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE82DCAA213FAE6300E81825 /* LaunchScreen.storyboard */; };
+		CE82DCB7213FAE6300E81825 /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82DCB6213FAE6300E81825 /* BudgetTests.swift */; };
+		CE82DCC2213FAE6400E81825 /* BudgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE82DCC1213FAE6400E81825 /* BudgetUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CEBB9260213CF5A500F4906D /* PBXContainerItemProxy */ = {
+		CE82DCB3213FAE6300E81825 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEBB9240213CF5A400F4906D /* Project object */;
+			containerPortal = CE82DC93213FAE6100E81825 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEBB9247213CF5A400F4906D;
+			remoteGlobalIDString = CE82DC9A213FAE6100E81825;
 			remoteInfo = Budget;
 		};
-		CEBB926B213CF5A500F4906D /* PBXContainerItemProxy */ = {
+		CE82DCBE213FAE6400E81825 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CEBB9240213CF5A400F4906D /* Project object */;
+			containerPortal = CE82DC93213FAE6100E81825 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEBB9247213CF5A400F4906D;
+			remoteGlobalIDString = CE82DC9A213FAE6100E81825;
 			remoteInfo = Budget;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE11777A213CFE5500ECCF59 /* RootTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
-		CEBB9248213CF5A400F4906D /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBB924B213CF5A400F4906D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEBB924D213CF5A400F4906D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEBB9250213CF5A400F4906D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CEBB9253213CF5A400F4906D /* Budget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budget.xcdatamodel; sourceTree = "<group>"; };
-		CEBB9255213CF5A500F4906D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEBB9258213CF5A500F4906D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEBB925A213CF5A500F4906D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBB925F213CF5A500F4906D /* BudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBB9263213CF5A500F4906D /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
-		CEBB9265213CF5A500F4906D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBB926A213CF5A500F4906D /* BudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBB926E213CF5A500F4906D /* BudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetUITests.swift; sourceTree = "<group>"; };
-		CEBB9270213CF5A500F4906D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE82DC9B213FAE6100E81825 /* Budget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Budget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE82DC9E213FAE6200E81825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE82DCA0213FAE6200E81825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE82DCA3213FAE6200E81825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE82DCA6213FAE6200E81825 /* Budget.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Budget.xcdatamodel; sourceTree = "<group>"; };
+		CE82DCA8213FAE6300E81825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE82DCAB213FAE6300E81825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE82DCAD213FAE6300E81825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE82DCB2213FAE6300E81825 /* BudgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE82DCB6213FAE6300E81825 /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
+		CE82DCB8213FAE6300E81825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE82DCBD213FAE6400E81825 /* BudgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE82DCC1213FAE6400E81825 /* BudgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetUITests.swift; sourceTree = "<group>"; };
+		CE82DCC3213FAE6400E81825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEBB9245213CF5A400F4906D /* Frameworks */ = {
+		CE82DC98213FAE6100E81825 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB925C213CF5A500F4906D /* Frameworks */ = {
+		CE82DCAF213FAE6300E81825 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB9267213CF5A500F4906D /* Frameworks */ = {
+		CE82DCBA213FAE6400E81825 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,55 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEBB923F213CF5A400F4906D = {
+		CE82DC92213FAE6100E81825 = {
 			isa = PBXGroup;
 			children = (
-				CEBB924A213CF5A400F4906D /* Budget */,
-				CEBB9262213CF5A500F4906D /* BudgetTests */,
-				CEBB926D213CF5A500F4906D /* BudgetUITests */,
-				CEBB9249213CF5A400F4906D /* Products */,
+				CE82DC9D213FAE6100E81825 /* Budget */,
+				CE82DCB5213FAE6300E81825 /* BudgetTests */,
+				CE82DCC0213FAE6400E81825 /* BudgetUITests */,
+				CE82DC9C213FAE6100E81825 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEBB9249213CF5A400F4906D /* Products */ = {
+		CE82DC9C213FAE6100E81825 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB9248213CF5A400F4906D /* Budget.app */,
-				CEBB925F213CF5A500F4906D /* BudgetTests.xctest */,
-				CEBB926A213CF5A500F4906D /* BudgetUITests.xctest */,
+				CE82DC9B213FAE6100E81825 /* Budget.app */,
+				CE82DCB2213FAE6300E81825 /* BudgetTests.xctest */,
+				CE82DCBD213FAE6400E81825 /* BudgetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBB924A213CF5A400F4906D /* Budget */ = {
+		CE82DC9D213FAE6100E81825 /* Budget */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB924B213CF5A400F4906D /* AppDelegate.swift */,
-				CEBB924D213CF5A400F4906D /* ViewController.swift */,
-				CEBB924F213CF5A400F4906D /* Main.storyboard */,
-				CE11777A213CFE5500ECCF59 /* RootTableViewController.swift */,
-				CEBB9255213CF5A500F4906D /* Assets.xcassets */,
-				CEBB9257213CF5A500F4906D /* LaunchScreen.storyboard */,
-				CEBB925A213CF5A500F4906D /* Info.plist */,
-				CEBB9252213CF5A400F4906D /* Budget.xcdatamodeld */,
+				CE82DC9E213FAE6200E81825 /* AppDelegate.swift */,
+				CE82DCA0213FAE6200E81825 /* ViewController.swift */,
+				CE82DCA2213FAE6200E81825 /* Main.storyboard */,
+				CE82DCA8213FAE6300E81825 /* Assets.xcassets */,
+				CE82DCAA213FAE6300E81825 /* LaunchScreen.storyboard */,
+				CE82DCAD213FAE6300E81825 /* Info.plist */,
+				CE82DCA5213FAE6200E81825 /* Budget.xcdatamodeld */,
 			);
 			path = Budget;
 			sourceTree = "<group>";
 		};
-		CEBB9262213CF5A500F4906D /* BudgetTests */ = {
+		CE82DCB5213FAE6300E81825 /* BudgetTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB9263213CF5A500F4906D /* BudgetTests.swift */,
-				CEBB9265213CF5A500F4906D /* Info.plist */,
+				CE82DCB6213FAE6300E81825 /* BudgetTests.swift */,
+				CE82DCB8213FAE6300E81825 /* Info.plist */,
 			);
 			path = BudgetTests;
 			sourceTree = "<group>";
 		};
-		CEBB926D213CF5A500F4906D /* BudgetUITests */ = {
+		CE82DCC0213FAE6400E81825 /* BudgetUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CEBB926E213CF5A500F4906D /* BudgetUITests.swift */,
-				CEBB9270213CF5A500F4906D /* Info.plist */,
+				CE82DCC1213FAE6400E81825 /* BudgetUITests.swift */,
+				CE82DCC3213FAE6400E81825 /* Info.plist */,
 			);
 			path = BudgetUITests;
 			sourceTree = "<group>";
@@ -140,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEBB9247213CF5A400F4906D /* Budget */ = {
+		CE82DC9A213FAE6100E81825 /* Budget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBB9273213CF5A500F4906D /* Build configuration list for PBXNativeTarget "Budget" */;
+			buildConfigurationList = CE82DCC6213FAE6400E81825 /* Build configuration list for PBXNativeTarget "Budget" */;
 			buildPhases = (
-				CEBB9244213CF5A400F4906D /* Sources */,
-				CEBB9245213CF5A400F4906D /* Frameworks */,
-				CEBB9246213CF5A400F4906D /* Resources */,
+				CE82DC97213FAE6100E81825 /* Sources */,
+				CE82DC98213FAE6100E81825 /* Frameworks */,
+				CE82DC99213FAE6100E81825 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,69 +145,69 @@
 			);
 			name = Budget;
 			productName = Budget;
-			productReference = CEBB9248213CF5A400F4906D /* Budget.app */;
+			productReference = CE82DC9B213FAE6100E81825 /* Budget.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEBB925E213CF5A500F4906D /* BudgetTests */ = {
+		CE82DCB1213FAE6300E81825 /* BudgetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBB9276213CF5A500F4906D /* Build configuration list for PBXNativeTarget "BudgetTests" */;
+			buildConfigurationList = CE82DCC9213FAE6400E81825 /* Build configuration list for PBXNativeTarget "BudgetTests" */;
 			buildPhases = (
-				CEBB925B213CF5A500F4906D /* Sources */,
-				CEBB925C213CF5A500F4906D /* Frameworks */,
-				CEBB925D213CF5A500F4906D /* Resources */,
+				CE82DCAE213FAE6300E81825 /* Sources */,
+				CE82DCAF213FAE6300E81825 /* Frameworks */,
+				CE82DCB0213FAE6300E81825 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEBB9261213CF5A500F4906D /* PBXTargetDependency */,
+				CE82DCB4213FAE6300E81825 /* PBXTargetDependency */,
 			);
 			name = BudgetTests;
 			productName = BudgetTests;
-			productReference = CEBB925F213CF5A500F4906D /* BudgetTests.xctest */;
+			productReference = CE82DCB2213FAE6300E81825 /* BudgetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEBB9269213CF5A500F4906D /* BudgetUITests */ = {
+		CE82DCBC213FAE6400E81825 /* BudgetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBB9279213CF5A500F4906D /* Build configuration list for PBXNativeTarget "BudgetUITests" */;
+			buildConfigurationList = CE82DCCC213FAE6400E81825 /* Build configuration list for PBXNativeTarget "BudgetUITests" */;
 			buildPhases = (
-				CEBB9266213CF5A500F4906D /* Sources */,
-				CEBB9267213CF5A500F4906D /* Frameworks */,
-				CEBB9268213CF5A500F4906D /* Resources */,
+				CE82DCB9213FAE6400E81825 /* Sources */,
+				CE82DCBA213FAE6400E81825 /* Frameworks */,
+				CE82DCBB213FAE6400E81825 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CEBB926C213CF5A500F4906D /* PBXTargetDependency */,
+				CE82DCBF213FAE6400E81825 /* PBXTargetDependency */,
 			);
 			name = BudgetUITests;
 			productName = BudgetUITests;
-			productReference = CEBB926A213CF5A500F4906D /* BudgetUITests.xctest */;
+			productReference = CE82DCBD213FAE6400E81825 /* BudgetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEBB9240213CF5A400F4906D /* Project object */ = {
+		CE82DC93213FAE6100E81825 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Hiramani Barman";
 				TargetAttributes = {
-					CEBB9247213CF5A400F4906D = {
+					CE82DC9A213FAE6100E81825 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					CEBB925E213CF5A500F4906D = {
+					CE82DCB1213FAE6300E81825 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = CEBB9247213CF5A400F4906D;
+						TestTargetID = CE82DC9A213FAE6100E81825;
 					};
-					CEBB9269213CF5A500F4906D = {
+					CE82DCBC213FAE6400E81825 = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = CEBB9247213CF5A400F4906D;
+						TestTargetID = CE82DC9A213FAE6100E81825;
 					};
 				};
 			};
-			buildConfigurationList = CEBB9243213CF5A400F4906D /* Build configuration list for PBXProject "Budget" */;
+			buildConfigurationList = CE82DC96213FAE6100E81825 /* Build configuration list for PBXProject "Budget" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,107 +215,100 @@
 				en,
 				Base,
 			);
-			mainGroup = CEBB923F213CF5A400F4906D;
-			productRefGroup = CEBB9249213CF5A400F4906D /* Products */;
+			mainGroup = CE82DC92213FAE6100E81825;
+			productRefGroup = CE82DC9C213FAE6100E81825 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEBB9247213CF5A400F4906D /* Budget */,
-				CEBB925E213CF5A500F4906D /* BudgetTests */,
-				CEBB9269213CF5A500F4906D /* BudgetUITests */,
+				CE82DC9A213FAE6100E81825 /* Budget */,
+				CE82DCB1213FAE6300E81825 /* BudgetTests */,
+				CE82DCBC213FAE6400E81825 /* BudgetUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEBB9246213CF5A400F4906D /* Resources */ = {
+		CE82DC99213FAE6100E81825 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB9259213CF5A500F4906D /* LaunchScreen.storyboard in Resources */,
-				CEBB9256213CF5A500F4906D /* Assets.xcassets in Resources */,
-				CEBB9251213CF5A400F4906D /* Main.storyboard in Resources */,
+				CE82DCAC213FAE6300E81825 /* LaunchScreen.storyboard in Resources */,
+				CE82DCA9213FAE6300E81825 /* Assets.xcassets in Resources */,
+				CE82DCA4213FAE6200E81825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB925D213CF5A500F4906D /* Resources */ = {
+		CE82DCB0213FAE6300E81825 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE117778213CF9C900ECCF59 /* Assets.xcassets in Resources */,
-				CE117776213CF6E700ECCF59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB9268213CF5A500F4906D /* Resources */ = {
+		CE82DCBB213FAE6400E81825 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE117779213CF9CA00ECCF59 /* Assets.xcassets in Resources */,
-				CE117777213CF6E800ECCF59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CEBB9244213CF5A400F4906D /* Sources */ = {
+		CE82DC97213FAE6100E81825 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB924E213CF5A400F4906D /* ViewController.swift in Sources */,
-				CEBB924C213CF5A400F4906D /* AppDelegate.swift in Sources */,
-				CEBB9254213CF5A400F4906D /* Budget.xcdatamodeld in Sources */,
-				CE11777B213CFE5500ECCF59 /* RootTableViewController.swift in Sources */,
+				CE82DCA1213FAE6200E81825 /* ViewController.swift in Sources */,
+				CE82DC9F213FAE6200E81825 /* AppDelegate.swift in Sources */,
+				CE82DCA7213FAE6200E81825 /* Budget.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB925B213CF5A500F4906D /* Sources */ = {
+		CE82DCAE213FAE6300E81825 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB9264213CF5A500F4906D /* BudgetTests.swift in Sources */,
-				CE11777C213CFE5500ECCF59 /* RootTableViewController.swift in Sources */,
+				CE82DCB7213FAE6300E81825 /* BudgetTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEBB9266213CF5A500F4906D /* Sources */ = {
+		CE82DCB9213FAE6400E81825 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBB926F213CF5A500F4906D /* BudgetUITests.swift in Sources */,
-				CE11777D213CFE5500ECCF59 /* RootTableViewController.swift in Sources */,
+				CE82DCC2213FAE6400E81825 /* BudgetUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CEBB9261213CF5A500F4906D /* PBXTargetDependency */ = {
+		CE82DCB4213FAE6300E81825 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEBB9247213CF5A400F4906D /* Budget */;
-			targetProxy = CEBB9260213CF5A500F4906D /* PBXContainerItemProxy */;
+			target = CE82DC9A213FAE6100E81825 /* Budget */;
+			targetProxy = CE82DCB3213FAE6300E81825 /* PBXContainerItemProxy */;
 		};
-		CEBB926C213CF5A500F4906D /* PBXTargetDependency */ = {
+		CE82DCBF213FAE6400E81825 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEBB9247213CF5A400F4906D /* Budget */;
-			targetProxy = CEBB926B213CF5A500F4906D /* PBXContainerItemProxy */;
+			target = CE82DC9A213FAE6100E81825 /* Budget */;
+			targetProxy = CE82DCBE213FAE6400E81825 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CEBB924F213CF5A400F4906D /* Main.storyboard */ = {
+		CE82DCA2213FAE6200E81825 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEBB9250213CF5A400F4906D /* Base */,
+				CE82DCA3213FAE6200E81825 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CEBB9257213CF5A500F4906D /* LaunchScreen.storyboard */ = {
+		CE82DCAA213FAE6300E81825 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEBB9258213CF5A500F4906D /* Base */,
+				CE82DCAB213FAE6300E81825 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -332,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEBB9271213CF5A500F4906D /* Debug */ = {
+		CE82DCC4213FAE6400E81825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -392,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		CEBB9272213CF5A500F4906D /* Release */ = {
+		CE82DCC5213FAE6400E81825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +430,7 @@
 			};
 			name = Release;
 		};
-		CEBB9274213CF5A500F4906D /* Debug */ = {
+		CE82DCC7213FAE6400E81825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -464,7 +448,7 @@
 			};
 			name = Debug;
 		};
-		CEBB9275213CF5A500F4906D /* Release */ = {
+		CE82DCC8213FAE6400E81825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -482,7 +466,7 @@
 			};
 			name = Release;
 		};
-		CEBB9277213CF5A500F4906D /* Debug */ = {
+		CE82DCCA213FAE6400E81825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,7 +487,7 @@
 			};
 			name = Debug;
 		};
-		CEBB9278213CF5A500F4906D /* Release */ = {
+		CE82DCCB213FAE6400E81825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +508,7 @@
 			};
 			name = Release;
 		};
-		CEBB927A213CF5A500F4906D /* Debug */ = {
+		CE82DCCD213FAE6400E81825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -544,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		CEBB927B213CF5A500F4906D /* Release */ = {
+		CE82DCCE213FAE6400E81825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,38 +551,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEBB9243213CF5A400F4906D /* Build configuration list for PBXProject "Budget" */ = {
+		CE82DC96213FAE6100E81825 /* Build configuration list for PBXProject "Budget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBB9271213CF5A500F4906D /* Debug */,
-				CEBB9272213CF5A500F4906D /* Release */,
+				CE82DCC4213FAE6400E81825 /* Debug */,
+				CE82DCC5213FAE6400E81825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBB9273213CF5A500F4906D /* Build configuration list for PBXNativeTarget "Budget" */ = {
+		CE82DCC6213FAE6400E81825 /* Build configuration list for PBXNativeTarget "Budget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBB9274213CF5A500F4906D /* Debug */,
-				CEBB9275213CF5A500F4906D /* Release */,
+				CE82DCC7213FAE6400E81825 /* Debug */,
+				CE82DCC8213FAE6400E81825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBB9276213CF5A500F4906D /* Build configuration list for PBXNativeTarget "BudgetTests" */ = {
+		CE82DCC9213FAE6400E81825 /* Build configuration list for PBXNativeTarget "BudgetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBB9277213CF5A500F4906D /* Debug */,
-				CEBB9278213CF5A500F4906D /* Release */,
+				CE82DCCA213FAE6400E81825 /* Debug */,
+				CE82DCCB213FAE6400E81825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBB9279213CF5A500F4906D /* Build configuration list for PBXNativeTarget "BudgetUITests" */ = {
+		CE82DCCC213FAE6400E81825 /* Build configuration list for PBXNativeTarget "BudgetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEBB927A213CF5A500F4906D /* Debug */,
-				CEBB927B213CF5A500F4906D /* Release */,
+				CE82DCCD213FAE6400E81825 /* Debug */,
+				CE82DCCE213FAE6400E81825 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -606,17 +590,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CEBB9252213CF5A400F4906D /* Budget.xcdatamodeld */ = {
+		CE82DCA5213FAE6200E81825 /* Budget.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CEBB9253213CF5A400F4906D /* Budget.xcdatamodel */,
+				CE82DCA6213FAE6200E81825 /* Budget.xcdatamodel */,
 			);
-			currentVersion = CEBB9253213CF5A400F4906D /* Budget.xcdatamodel */;
+			currentVersion = CE82DCA6213FAE6200E81825 /* Budget.xcdatamodel */;
 			path = Budget.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = CEBB9240213CF5A400F4906D /* Project object */;
+	rootObject = CE82DC93213FAE6100E81825 /* Project object */;
 }
